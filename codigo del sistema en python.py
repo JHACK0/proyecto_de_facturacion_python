@@ -9,7 +9,7 @@ class SistemaFacturacionSupermercado:
 
         
         self.productos = {
-            # Alimentos
+        
             "Arroz Doble Carolina 1kg": 5000,
             "Aceite de Cocina Girasol 1L": 8000,
             "Leche Alquería Entera 1L": 3000,
@@ -20,7 +20,6 @@ class SistemaFacturacionSupermercado:
             "Harina de Trigo Harinera del Valle 1kg": 3500,
             "Pan de Molde Bimbo 680g": 4500,
             "Galletas Saltín Noel 150g": 2500,
-            # Bebidas
             "Cerveza Aguila 355ml": 2000,
             "Coca-Cola 2.5L": 5000,
             "Jugo de Naranja Natural 1L": 4000,
@@ -31,7 +30,6 @@ class SistemaFacturacionSupermercado:
             "Energizante Red Bull 250ml": 5000,
             "Té Lipton Limón 25 bolsas": 3500,
             "Jugo Hit Guayaba 200ml": 1000,
-            # Limpieza
             "Detergente en Polvo Ariel 2kg": 12000,
             "Cloro Blanqueador Azul 1L": 2500,
             "Papel Higiénico Familia x4": 5000,
@@ -42,7 +40,6 @@ class SistemaFacturacionSupermercado:
             "Cepillo de Dientes Colgate": 2000,
             "Shampoo Sedal 400ml": 8000,
             "Desinfectante Lysol 500ml": 6000,
-            # Cuidado Personal
             "Papel Toalla Elite x2": 6000,
             "Desodorante Axe 150ml": 9000,
             "Cepillo de Dientes Oral-B": 3500,
@@ -53,7 +50,6 @@ class SistemaFacturacionSupermercado:
             "Acondicionador Sedal 350ml": 8500,
             "Crema Hidratante Nivea 200ml": 10000,
             "Cuchillas de Afeitar Gillette x5": 15000,
-            # Tecnología
             "Smartphone Samsung Galaxy A52": 1800000,
             "Televisor LG 55'' 4K": 3500000,
             "Auriculares Inalámbricos Apple AirPods": 800000,
@@ -63,8 +59,7 @@ class SistemaFacturacionSupermercado:
             "Teclado Gamer Razer": 250000,
             "Cámara de Seguridad Xiaomi": 150000,
             "Batería Portátil Anker 20000mAh": 150000,
-            "Altavoz Bluetooth JBL Charge 4": 400000,
-            # Electrodomésticos
+            "Altavoz Bluetooth JBL Charge 4": 400000,   
             "Nevera Mabe 300L": 1500000,
             "Lavadora Samsung 15kg": 2000000,
             "Estufa Haceb 4 Puestos": 800000,
@@ -74,8 +69,7 @@ class SistemaFacturacionSupermercado:
             "Plancha de Vapor Black+Decker": 80000,
             "Licuadora de Mano KitchenAid": 250000,
             "Batidora de Pedestal Hamilton Beach": 300000,
-            "Cafetera Philips Senseo": 180000,
-            # Ropa y Calzado
+            "Cafetera Philips Senseo": 180000,          
             "Camiseta Polo Ralph Lauren": 120000,
             "Zapatos Adidas Superstar": 350000,
             "Vestido de Fiesta Zara": 250000,
@@ -86,7 +80,6 @@ class SistemaFacturacionSupermercado:
             "Bufanda Burberry": 300000,
             "Calcetines Nike": 25000,
             "Gorra New Era": 80000,
-            # Otros
             "Mochila Totto": 120000,
             "Reloj Casio Digital": 90000,
             "Lámpara de Escritorio LED": 60000,
@@ -96,8 +89,7 @@ class SistemaFacturacionSupermercado:
             "Caja de Herramientas 100 piezas": 80000,
             "Mapa Mundial Decorativo": 40000,
             "Silla de Oficina Ergonómica": 180000,
-            "Cable HDMI 2m": 15000,
-            # Agrega aquí más productos con sus nombres y precios
+            "Cable HDMI 2m": 150000
             "TV Samsung 50'' 4K": 2500000,
             "Laptop HP Core i5": 3000000,
             "iPhone 12 Pro 256GB": 5000000,
