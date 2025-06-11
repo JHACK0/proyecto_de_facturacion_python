@@ -7,7 +7,7 @@ class SistemaFacturacionSupermercado:
         self.root.title("Sistema de Busqueda De Productos")
         self.root.geometry("900x600")
 
-        # Lista de productos
+        
         self.productos = {
             # Alimentos
             "Arroz Doble Carolina 1kg": 5000,
@@ -143,18 +143,14 @@ class SistemaFacturacionSupermercado:
             "Vajilla de Porcelana": 300000,
         }
 
-        # Carrito de compras
+     
         self.carrito = {}
         self.total = 0.0
 
-        # Estilos
         self.color_fondo = "#f2f2f2"
         self.color_boton = "#4CAF50"
         self.color_boton_hover = "#45a049"
-        self.color_texto = "#333"
-        self.color_marco = "#ddd"
 
-        # Interfaz gráfica
         self.frame_buscar = tk.Frame(root, bg=self.color_fondo)
         self.frame_buscar.pack(pady=20)
 
